@@ -69,21 +69,20 @@ This layered architecture helps extract meaningful signals from noisy, fast-movi
 ## 📊 Evaluation & Visualizations
 
 ### 📌 Confusion Matrix
-Modelin hangi sınıfları doğru/yanlış sınıflandırdığını gösterir.
+Shows how the model classified each class:
 
 ![Confusion Matrix](images/confusion_matrix.png)
 
 ---
 
 ### 📌 ROC Curve
-Modelin sınıflandırma başarımını gösteren ROC eğrisi. AUC değeri 0.44 olduğu için modelin rasgele tahmin seviyesinde olduğunu gözlemleyebiliriz.
-
+Visualizes classification ability. AUC = 0.44 indicates the model struggles to perform better than random guessing.
 ![ROC Curve](images/roc_curve.png)
 
 ---
 
 ### 📌 Accuracy & Loss Over Epochs
-Eğitim süreci boyunca doğruluk ve kayıp metriklerinin değişimi.
+Displays how training and validation metrics evolved over epochs.
 
 ![Training Accuracy & Loss](images/accuracy_loss.png)
 
